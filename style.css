@@ -103,3 +103,25 @@ h4, p{
     top: 120px;
     right: 10px;
 }
+.about-me-sec{
+    min-height: 75vh;
+    background-color: #c5bef9;
+    color: var(--primary-color);
+}
+
+.about-me-sec hr{
+    border: 2px solid #055b5c;
+    margin-bottom: 2rem;
+}
+.about-content img{
+    width: 100%;
+   margin-left: 75px;
+}
+.about-content ul{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.about-content ul span{
+    color: #08979d;
+}
