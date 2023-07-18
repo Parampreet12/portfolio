@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@
     --green-shade: #08979d;
     --accent-color: #08979d;
 }
+
 
 ul li{
     list-style: none;
@@ -58,25 +60,7 @@ ul li a::before{
 ul li a:hover::before{
     width: 100%;
 }
-.btn{
-    width: 100px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: var(--green-color);
-    color: var(--primary-color);
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 0 5px;
-    font-weight: 500;
-}
 
-.btn:hover{
-    background-color: var(--green-shade);
-    color: var(--primary-shade);
-    border: 2px solid var(--green-color);
-}
 .content{
     height: 90vh;
     position: relative;
@@ -103,6 +87,8 @@ h4, p{
     top: 120px;
     right: 10px;
 }
+
+
 .about-me-sec{
     min-height: 75vh;
     background-color: #c5bef9;
@@ -124,4 +110,68 @@ h4, p{
 
 .about-content ul span{
     color: #08979d;
+}
+
+
+.project-sec{
+    height: 93vh;
+    margin-bottom: 50px;
+    background-color: #d8bcab;
+}
+.projects > h3{
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.project-child img{
+    width: 90%;
+    
+}
+
+.project-parent{
+    gap: 90px;
+}
+
+.project-child{
+    border: 2px solid var(--green-color);
+    border-radius: 8px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.project-child:hover{
+    transform: scale(1.1);
+    background-color: lavender;
+}
+
+.project-child h3{
+    margin-top: 10px;
+}
+
+.project-child p{
+    margin-top: 5px;
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 11px;
+    padding-bottom: 11px;
+}
+.resume-sec {
+    height: 150vh;
+    margin-bottom: 50px;
+    margin-top: -3.5rem;
+    background-color: #b7adff;
+    color: var(--primary-color);
+}
+.resume h3{
+    color: var(--primary-color);
+    margin-bottom: 1px;
+}
+.resume-img img{
+    width: 100vh;
+    height: 130vh;
+    z-index: 999;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.resume-img img:hover{
+    filter: drop-shadow(16px 5px 20px #d498c6);
 }
