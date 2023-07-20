@@ -114,7 +114,7 @@ h4, p{
 
 
 .project-sec{
-    height: 93vh;
+    height: 80vh;
     margin-bottom: 50px;
     background-color: #d8bcab;
 }
@@ -123,7 +123,7 @@ h4, p{
     margin-bottom: 20px;
 }
 .project-child img{
-    width: 90%;
+    width: 80%;
     
 }
 
@@ -149,8 +149,8 @@ h4, p{
 
 .project-child p{
     margin-top: 5px;
-    line-height: 1.2;
-    text-align: left;
+    line-height: 1.1;
+    text-align: center;
     padding-left: 11px;
     padding-bottom: 11px;
 }
@@ -174,4 +174,61 @@ h4, p{
 }
 .resume-img img:hover{
     filter: drop-shadow(16px 5px 20px #d498c6);
+}
+
+
+
+
+@media (max-width:768px){
+header{
+    width: 150vh;
+}
+    .nav-bar{
+        flex-direction:row;
+        position: relative;
+        width: 1vh;
+        height: 20vh;
+       
+    }
+ .nav-links ul{
+    display: flex;
+    flex-direction:row;
+    gap: 12px;
+ }
+ .nav-links ul, .logo{
+    display:row;
+ }
+.about-me-sec{
+    width: 150vh;
+}
+ .color-box{
+    display: none;
+ }
+.resume-sec{
+    width: 150vh;
+}
+ .content{
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+ }
+
+ .menu-btn i{
+    display: block;
+   
+ }
+ .img{
+display:block;
+margin-right: 2rem;
+ }
+ .project-sec{
+    height: 120vh;
+    width: 150vh;
+ }
+
+ .menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+ }    
 }
